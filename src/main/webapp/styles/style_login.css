@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+section{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+	background-color:var(--fondoOscuro) !important;
+}
+
+section form{
+	background-color: var(--fondoClaro);
+	height:100px;
+	width:320px;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section form div{
+	width:80%;
+	padding-bottom: 5px;
+	
+	display: flex;
+	flex-direction: row;	
+}
+
+section form label{
+	display:inline-block;
+	width:80px;
+}
+
+section form input[type='text'],
+section form input[type='password']
+{
+	width:calc(100% - 4px);
+}
+
+#controles_login {
+	justify-content:flex-end;
+}
+
+#controles_login input[type='submit'] {
+	margin-left:5px;
+}
+
+main {
+	background-color: var(--fondoOscuro);
+	padding: 10px;
+	min-height: calc(100vh - 150px - 60px - 80px) !important;
+}

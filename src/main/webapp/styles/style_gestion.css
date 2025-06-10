@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#cabecera_forms{
+	margin-bottom: 10px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#cabecera_forms form{
+	
+	background-color:pink;
+	width:30%;
+}
